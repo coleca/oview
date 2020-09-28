@@ -1,0 +1,26 @@
+{
+    "shared": {
+        "resourceName": "oview"
+    },
+    "template": {
+        "name": "Amplify_Video_System_Accelerated_Ott_Hls_Ts_Avc_Aac.json"
+    },
+    "contentDeliveryNetwork": {
+        "signedKey": false,
+        "enableDistribution": true
+    },
+    "permissions": {
+        "permissionSchema": [
+            "admin"
+        ]
+    },
+    "cms": {
+        "overrideSchema": true,
+        "editAPI": true
+    },
+    "parameters": {
+        "authRoleName": {
+            "Ref": "AuthRoleName"
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "AppSyncApiName": "oview",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": false,
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authoviewa3b5b665",
+            "Outputs.UserPoolId"
+        ]
+    }
+}

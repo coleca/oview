@@ -1,0 +1,25 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-oview-dev-101702-authRole",
+      "UnauthRoleArn": "arn:aws:iam::645195413463:role/amplify-oview-dev-101702-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::645195413463:role/amplify-oview-dev-101702-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-oview-dev-101702-deployment",
+      "UnauthRoleName": "amplify-oview-dev-101702-unauthRole",
+      "StackName": "amplify-oview-dev-101702",
+      "StackId": "arn:aws:cloudformation:us-east-1:645195413463:stack/amplify-oview-dev-101702/483dd9e0-0195-11eb-86af-1272d872aba7",
+      "AmplifyAppId": "d3lf1rchc346j4"
+    },
+    "categories": {
+      "auth": {
+        "oviewa3b5b665": {}
+      },
+      "video": {
+        "oview": {
+          "s3UUID": "yua38pnz"
+        }
+      }
+    }
+  }
+}
